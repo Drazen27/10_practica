@@ -1,6 +1,6 @@
 
 resource "azurerm_resource_group" "terraform_rg" {
-  name     = "${var.name}-rg-${terraform.workspace}"
+  name     = "${var.name}-rg"
   location = var.location
   tags     = var.common_tags
 }
